@@ -1,0 +1,129 @@
+#navbar ul { 
+	margin: 0; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-color: #ffffff; 
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	float: right;
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #000; 
+	background-color: #ffffff; 
+	} 
+ 
+
+#navbar ul li a:hover { 
+	color: #ededed; 
+	background-color: #ffffff; 
+	} 
+ 
+.lightgray_bg { 
+	color: #000; 
+	background-color: #ffffff; 
+	} 
+.darkgray_bg { 
+	color: #000; 
+	background-color: #000000; 
+	} 
+.font_quarkbold {
+    font-family: "Quark-Bold";
+    color: #4c66a4;
+}
+.font_quarklight {
+    font-family: "Quark-Light";
+    color: #000000;
+}
+#verticalLine {
+    
+    color: #000000;
+}
+
+.vertical_align {
+    vertical-align:top;
+}
+#panel_header1 {
+	background-color: #4c66a4;
+}
+
+.color{
+	background-color:0066FF;
+	height: 1000px;
+	width: 1500px;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+
+#fromtheTop {
+	margin-top: 100px;
+}
+
+#fromPost{
+	margin-top: 50px;
+}
+
+.border{
+    border: 5px solid red;
+}
+
+#textborder {
+	margin-top: 500px;
+}
+.floatleft{
+	float:left;
+  width: 700px;s
+  height: 1000px;
+  margin: 1em;
+}
+.left{
+	float:left;
+
+}
+.floatright{
+	float:right;
+  width: 700px;
+  height: 1000px;
+  margin: 1em;
+}
+.floatPicRight{
+	display: block;
+}
+.photoCard{
+	position: relative;
+	display: inline-block;
+	margin: 15px;
+	background-image: url('Images/pun1.png');
+}
+.testhover {
+    background: url('http://dummyimage.com/100x100/000/fff');
+}
+.testhover:hover {
+    background: url('http://dummyimage.com/100x100/eb00eb/fff');
+}
+
+.photoCard:hover { 
+	background-image: url('Images/pun1-hover.png');
+} 
+
+html,body{
+	height: 100%
+}
+
+#footer {
+	height:150px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	float: center;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
